@@ -132,7 +132,7 @@ public class TubeBehavior extends AppCompatActivity {
             querySearch = "https://www.googleapis.com/youtube/v3/search?part=snippet&q="
                     +favoriteKey.get(random.nextInt(favoriteKey.size()))
                     +orderRandom[random.nextInt(3)]
-                    +"&type=video&videoCategoryId=10&maxResults=50&key=AIzaSyB-iYo9CZ0yb13a4esvDeVOZG2zdTqFf0I";
+                    +"&type=video&videoCategoryId=10&maxResults=50&key=YourKey";
 
 
             pd = new ProgressDialog(TubeBehavior.this,R.style.PdSpinnerTheme);
