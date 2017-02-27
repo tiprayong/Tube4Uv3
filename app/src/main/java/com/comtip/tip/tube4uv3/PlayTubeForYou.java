@@ -16,7 +16,7 @@ import com.google.android.youtube.player.YouTubePlayerView;
  */
 public class PlayTubeForYou extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
 
-    final String YOUTUBE_API_KEY = "AIzaSyB-iYo9CZ0yb13a4esvDeVOZG2zdTqFf0I";
+    final String YOUTUBE_API_KEY = "YourKey";
 
     //windgets
     YouTubePlayerView youtubeView;
