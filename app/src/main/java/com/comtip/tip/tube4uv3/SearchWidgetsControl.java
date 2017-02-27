@@ -20,7 +20,7 @@ public class SearchWidgetsControl {
     public Button searchBT = null;
 
     final String googleapisSearch = "https://www.googleapis.com/youtube/v3/search?part=snippet&q=";
-    final String APIkey = "AIzaSyB-iYo9CZ0yb13a4esvDeVOZG2zdTqFf0I";
+    final String APIkey = "YourKey";
     private String order = "";
     private String typeSearch = "";
     private String querySearch = "";
