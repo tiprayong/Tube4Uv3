@@ -242,7 +242,7 @@ public class TubeBehavior extends AppCompatActivity {
 
             Runtime runtime = Runtime.getRuntime();
             try {
-                Process ipProcess = runtime.exec("/system/bin/ping -c 1 203.113.24.199"); //Alternate dns server TOT
+                Process ipProcess = runtime.exec("/system/bin/ping -c 1 X.X.X.X"); //Your DNS
                 int exitValue = ipProcess.waitFor();
                 return (exitValue == 0);
             } catch (IOException e) { e.printStackTrace(); }
